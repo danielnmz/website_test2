@@ -1,0 +1,19 @@
+$(document).ready(function() {
+  $('#pub-cb-dissertation2014').on('change', function() {
+    icon = $('#pub-abs-icon-dissertation2014');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-dissertation2014').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-dissertation2014').attr('title', 'Show Abstract.');    }  });
+
+  $('#pub-cb-thesis2010').on('change', function() {
+    icon = $('#pub-abs-icon-thesis2010');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-thesis2010').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-thesis2010').attr('title', 'Show Abstract');    }  });
+});

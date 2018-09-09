@@ -1,0 +1,180 @@
+$(document).ready(function() {
+  $('#pub-cb-book13').on('change', function() {
+    icon = $('#pub-abs-icon-book13');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-book13').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-book13').attr('title', 'Show Abstract.');    }  });
+
+
+
+  $('#pub-cb-bookch16').on('change', function() {
+    icon = $('#pub-abs-icon-bookch16');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-bookch16').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-bookch16').attr('title', 'Show Abstract');    }  });
+
+
+
+  $('#pub-cb-tcbb16').on('change', function() {
+    icon = $('#pub-abs-icon-tcbb16');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-tcbb16').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-tcbb16').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-bmc15').on('change', function() {
+    icon = $('#pub-abs-icon-bmc15');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-bmc15').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-bmc15').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-ijcta15').on('change', function() {
+    icon = $('#pub-abs-icon-ijcta15');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-ijcta15').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-ijcta15').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-ijacsp13').on('change', function() {
+    icon = $('#pub-abs-icon-ijacsp13');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-ijacsp13').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-ijacsp13').attr('title', 'Show Abstract');    }  });
+
+
+
+  $('#pub-cb-bhi16').on('change', function() {
+    icon = $('#pub-abs-icon-bhi16');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-bhi16').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-bhi16').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-cdc15').on('change', function() {
+    icon = $('#pub-abs-icon-cdc15');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-cdc15').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-cdc15').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-bcb15').on('change', function() {
+    icon = $('#pub-abs-icon-bcb15');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-bcb15').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-bcb15').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-dscc14-1').on('change', function() {
+    icon = $('#pub-abs-icon-dscc14-1');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-dscc14-1').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-dscc14-1').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-dscc14-2').on('change', function() {
+    icon = $('#pub-abs-icon-dscc14-2');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-dscc14-2').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-dscc14-2').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-ifac14').on('change', function() {
+    icon = $('#pub-abs-icon-ifac14');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-ifac14').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-ifac14').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-isccsp14').on('change', function() {
+    icon = $('#pub-abs-icon-isccsp14');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-isccsp14').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-isccsp14').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-ascc13').on('change', function() {
+    icon = $('#pub-abs-icon-ascc13');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-ascc13').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-ascc13').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-iasted12').on('change', function() {
+    icon = $('#pub-abs-icon-iasted12');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-iasted12').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-iasted12').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-pid12').on('change', function() {
+    icon = $('#pub-abs-icon-pid12');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-pid12').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-pid12').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-cdc11').on('change', function() {
+    icon = $('#pub-abs-icon-cdc11');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-cdc11').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-cdc11').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-dscc11').on('change', function() {
+    icon = $('#pub-abs-icon-dscc11');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-dscc11').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-dscc11').attr('title', 'Show Abstract');    }  });
+
+  $('#pub-cb-ifac11').on('change', function() {
+    icon = $('#pub-abs-icon-ifac11');
+    icon.removeClass('fa-minus-square-o').removeClass('fa-plus-square-o');
+    if ($(this).is(':checked')) {
+      icon.addClass('fa-minus-square-o');
+      $('#pub-abs-label-ifac11').attr('title', 'Hide Abstract');    } else {
+      icon.addClass('fa-plus-square-o');
+      $('#pub-abs-label-ifac11').attr('title', 'Show Abstract');    }  });
+
+
+});
