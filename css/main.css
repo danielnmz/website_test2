@@ -2,6 +2,10 @@
 	Typography
 -------------------------------------------------------------------------------*/
 /*@import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);*/
+html *
+{
+   font-family: "Source Sans Pro" !important;
+}
 p {
 	font-size: 14px;
 	line-height: 22.4px;
