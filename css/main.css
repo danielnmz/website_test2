@@ -4,8 +4,7 @@
 /*@import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);*/
 html *
 {
-   font-family: sans-serif
-   /*font-size: 14px;*/
+   font-family: sans-serif;
 }
 p {
 	font-size: 14px;
@@ -343,24 +342,22 @@ ul li {
 .banner-btn {
 	opacity: 0.5;
 }
-.banner-text {
-	padding-top: 33%;
+.banner-main {
+	padding-top: 15%;
 }
-.banner-text h1 {
+.banner-main h1 {
 	color: #fff;
-	font-family: "Source Sans Pro";
-	font-size: 53px;
-	letter-spacing: 10px;
-	font-weight: 400;
-	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 100;
 }
-.banner-text h2 {
+.banner-main h2 {
 	color: #fff;
 }
-.banner-text h3 {
+.banner-main h3 {
 	color: #fff;
 }
-.banner-text p {
+.banner-main p {
 	color: #8d8d8d;
 	font-size: 12px;
 	font-weight: 400;
@@ -370,11 +367,34 @@ ul li {
 	margin-bottom: 80px;
 	text-transform: uppercase;
 }
-.font-black h1, .font-black h2, .font-black h3 {
-	color: #2d3033;
-}
 .banner-main a {
-	margin-top: 200px;
+	margin-top: 320px;
+}
+.banner-work {
+	padding-top: 33%;
+}
+.banner-work h1 {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 0px;
+}
+.banner-work h2 {
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+.banner-work h3 {
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+.banner-work a {
+	margin-top: 80px;
 }
 .banner .fa-angle-down {
 	padding: 10px 15px;
@@ -391,23 +411,8 @@ ul li {
 .fa-angle-down:focus {
 	outline: none;
 }
-.banner-work h1 {
-	font-size: 20px;
-	letter-spacing: 10px;
-	padding: 0px;
-}
-.banner-work h2 {
-	font-size: 15px;
-	letter-spacing: 1px;
-	padding: 0px;
-}
-.banner-work h3 {
-	font-size: 15px;
-	letter-spacing: 1px;
-	padding: 0px;
-}
-.banner-work a {
-	margin-top: 80px;
+.font-black h1, .font-black h2, .font-black h3 {
+	color: #2d3033;
 }
 /* ------------------------------------------------------------------------------
 	 Intro
