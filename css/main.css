@@ -342,10 +342,8 @@ ul li {
 .banner-btn {
 	opacity: 0.5;
 }
-.banner-main {
-	padding-top: 15%;
-}
 .banner-main h1 {
+	padding-top: 30%;
 	color: #fff;
 	font-size: 18px;
 	letter-spacing: 2px;
@@ -368,7 +366,7 @@ ul li {
 	text-transform: uppercase;
 }
 .banner-main a {
-	margin-top: 320px;
+	margin-top: 180px;
 }
 .banner-work {
 	padding-top: 33%;
