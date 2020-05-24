@@ -324,6 +324,9 @@ ul li {
 .banner-image-main {
 	background-image: url(../img/banner.jpg);
 }
+.banner-image-verb {
+	background-image: url(../img/work/verb.png);
+}
 .banner-image-carbon {
 	background-image: url(../img/work/carbon.png);
 }
